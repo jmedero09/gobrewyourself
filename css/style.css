@@ -1,0 +1,27 @@
+body{
+font-family: 'Sue Ellen Francisco', cursive;
+background-color: #8c5739;
+
+}
+.jumbotron{
+    background-image: url("../images/beehouse.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    color:white;
+}
+.navbar{
+margin:0px;
+background-color: #292018;
+}
+.navbar-inverse .navbar-brand:hover, a:hover, a {color: #8f9fa6;
+    
+}
+.navbar-inverse .navbar-brand{
+    color:white; 
+}
+h1{
+text-shadow: rgba(150, 150, 150, 0.6)0px 3px 9px;
+}
+h2, p, ul li {font-family: 'Droid Sans', sans-serif;}
