@@ -15,8 +15,8 @@ background-color: #8c5739;
 margin:0px;
 background-color: #292018;
 }
-.navbar-inverse .navbar-brand:hover, a:hover, a {color: #8f9fa6;
-    
+.navbar-inverse .navbar-brand:hover, a:hover, a {
+    color: #8f9fa6;
 }
 .navbar-inverse .navbar-brand{
     color:white; 
@@ -24,4 +24,32 @@ background-color: #292018;
 h1{
 text-shadow: rgba(150, 150, 150, 0.6)0px 3px 9px;
 }
-h2, p, ul li {font-family: 'Droid Sans', sans-serif;}
+h2, p, ul li {font-family: 'Droid Sans', sans-serif;
+    color:white;
+    text-align: center;
+}
+ul{
+    -webkit-padding-start:0px;
+    padding:0px;
+}
+ul li{
+    list-style-type: none;
+    line-height: 24px;
+}
+
+h3{
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.border{
+    border: solid 1px white;
+
+}
+ul li a:hover{
+    color:white;
+    text-decoration: none;
+}
+.blurb{
+    margin-bottom: 30px;
+}
