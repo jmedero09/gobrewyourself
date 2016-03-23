@@ -1,7 +1,6 @@
 body{
-font-family: 'Sue Ellen Francisco', cursive;
-background-color: #8c5739;
-
+    font-family: 'Droid Sans', sans-serif;
+background-color: #7E4C32;
 }
 .jumbotron{
     background-image: url("../images/beehouse.jpg");
@@ -24,7 +23,7 @@ background-color: #292018;
 h1{
 text-shadow: rgba(150, 150, 150, 0.6)0px 3px 9px;
 }
-h2, p, ul li {font-family: 'Droid Sans', sans-serif;
+h2, p, ul li {
     color:white;
     text-align: center;
 }
@@ -41,6 +40,7 @@ h3{
     text-align: center;
     border-bottom: 1px solid white;
     padding-bottom: 10px;
+    font-family: 'Sue Ellen Francisco', cursive;
 }
 .border{
     border: solid 1px white;
@@ -50,6 +50,46 @@ ul li a:hover{
     color:white;
     text-decoration: none;
 }
+ul li a:active{
+    color:white;
+    text-decoration: none;
+}
 .blurb{
     margin-bottom: 30px;
 }
+.rowspace{
+    margin-top: 30px;
+}
+img{
+    padding:5px;
+}
+#strength{
+    text-align: center;
+    /*border-bottom: solid;
+    border-bottom-color:#292019;*/
+    margin-bottom: 24px;
+}
+.fa-coffee:hover {
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+}
+#standard{
+    color: #8B573B;
+}
+#strong {
+    color: #59352E;
+}
+#mypref {
+    color: #292019;
+}
+button {margin: 30px 0px;}
+.ratio {margin-bottom: 24px;}
+.dropdown-menu li {color: #292019;}
+.dropdown-menu{min-width: 60px;}
+
+/* |||||||||||||||||||||||||||||||||||||| MEDIA QUERIES |||||||||||||||||||||||||||||||||||||||||||||*/
+/* Medium devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            /*.border {border: 0px; border-bottom: 1px solid white; margin: 30px; padding-bottom: 15px;}
+            h3{font-size: 42px;}
+            .border p {margin-top: 36px;}*/
+        }
