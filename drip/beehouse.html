@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/style.css">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script type="text/javascript" src="../js/script.js"></script>
 </head>
 <!--Start of Navbar-->
+
 <body>
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -78,110 +78,150 @@
       </section>
     </div>
     <!--what you need section End-->
-    
-    
+
     <!--Start of step 1 section-->
     <section class="row rowspace">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="border">
-          <h3>Step #1 Boil Water</h3>
-          <p>The first thing we want to do is fill up our kettle and heat up the water. We want the water to be anywhere from 195&#8457; - 205&#8457;
-          </p>
-          <figure>
-            <img class="img-responsive" src="../images/kettle.jpg"></img>
+        <div class="border row">
+          <div class="col-md-4 pull-right">
+            <h3>Step #1 Boil Water</h3>
+            <p>The first thing we want to do is fill up our kettle and heat up the water. We want the water to be anywhere from 195&#8457; - 205&#8457;</p>
+          </div>
+          <figure class="col-xs-12 col-sm-12 col-md-8 pull-left">
+            <img class="img-responsive" src="../images/kettle.jpg" />
           </figure>
         </div>
       </div>
     </section>
     <!--END OF STEP 1-->
-    
+
     <!--Step 2-->
-       <section class="row rowspace">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="border">
-          <h3>Step #2 Fold Filter</h3>
-          <p>
-            Once our water is heated  we will want to fold our coffee filter and place it into the dripper. 
-          </p>
-            <figure>
-              <img class="img-responsive	"src="../images/filter.jpg"/>
-            </figure>
-        </div>
-      </div>
-    </section>
-    <!--End of Step 2-->
-    
-    <!--START OF STEP 3-->
     <section class="row rowspace">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="border">
-          <h3>Step #3 Pre Heat filter</h3>
-          <p>
-            Once our dripper is prepped we want rinse the filter with our hot water to remove any paper filter taste that we might get from the filter.
-          </p>
-          <figure class="embed-responsive embed-responsive-16by9">
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/k1trBzX-1JE?start=33&end=43&rel=0&showinfo=0&autohide=0&modestbranding=0&controls=0" frameborder="0" allowfullscreen="false"></iframe>
+        <div class="border row">
+          <div class="col-xs-12 col-sm-12 col-md-4 pull-left">
+            <h3>Step #2 Fold Filter</h3>
+            <p>Once our water is heated we will want to fold our coffee filter.Fold a Melitta #4 filter down the scalloped edge.Fold the edegs opposite of each other. Insert it into the Bee House Brewer and place it on top of your mug or pitcher. </p>
+          </div>
+          <figure class="col-xs-12 col-sm-12 col-md-8 pull-right">
+            <img class="img-responsive" src="../images/fold.jpg" />
           </figure>
         </div>
       </div>
     </section>
+    <!--End of Step 2-->
+
+    <!--START OF STEP 3-->
+    <section class="row rowspace">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="border row">
+          <div class="col-xs-12 col-sm-12 col-md-4 pull-right">
+            <h3>Step #3 Pre Heat filter</h3>
+            <p>Once our dripper is prepped we want rinse the filter with our hot water to remove any paper filter taste that we might get from the filter.</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-8 pull-left">
+            <figure class="embed-responsive embed-responsive-16by9">
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/k1trBzX-1JE?start=33&end=43&rel=0&showinfo=0&autohide=0&modestbranding=0&controls=0" frameborder="0" allowfullscreen="false"></iframe>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--END OF STEP 3-->
-    
+
     <!--STEP 4 WEIGH-->
-   <section class="row rowspace">
+    <section class="row rowspace">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="border">
           <h3>Step #4 Weigh and Grind Coffee</h3>
           <p>Once you have weighed your coffee you will want to grind it the size of table salt</p>
-          <p>
-            Select a Strength:
-          </p>
+          <h4>Select a Strength:</h4>
           <!--Coffee strength section-->
           <div class="row" id="strength">
-              <div id="standard" class="col-xs-4 col-sm-2 col-sm-offset-3"><i class="fa fa-coffee fa-4x"></i><p>1:18</p></div>
-              <div id="strong" class="col-xs-4 col-sm-2"><i class="fa fa-coffee fa-4x"></i><p>1:16</p></div>
-              <div id="mypref" class="col-xs-4 col-sm-2"><i class="fa fa-coffee fa-4x"></i><p>1:14</p></div>
+            <div id="standard" class="col-xs-4 col-sm-2 col-sm-offset-3"><i class="fa fa-coffee fa-4x"></i>
+              <p>1:18</p>
+            </div>
+            <div id="strong" class="col-xs-4 col-sm-2"><i class="fa fa-coffee fa-4x"></i>
+              <p>1:16</p>
+            </div>
+            <div id="mypref" class="col-xs-4 col-sm-2"><i class="fa fa-coffee fa-4x"></i>
+              <p>1:14</p>
+            </div>
           </div>
           <!--ratio calc-->
           <div class="ratio">
             <div class="row">
               <!--Inline form-->
               <form class="form-inline">
-                <div class="form-group col-xs-12 col-sm-12 col-md-5 col-lg-4">
-                  <input type="number" class="form-control" id="beanField" placeholder="25" size="4" maxlength="4">
+                <div class="form-group col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2">
+                  <input type="number" class="form-control center-block" id="beanField" placeholder="0" size="4" maxlength="4" min="0" disabled>
                   <label for="beanField">kg of coffee beans</label>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                   <button type="button" class="btn btn-default center-block" id="calc">Calculate</button>
                 </div>
-                <div class="form-group col-xs-12 col-sm-12 col-md-5 col-lg-4">
-                  <input type="number" class="form-control" id="waterField" placeholder="25" size="4" maxlength="4">
+                <div class="form-group col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+                  <input type="number" class="form-control center-block" id="waterField" placeholder="0" size="4" maxlength="4" min="0" disabled>
                   <label for="waterField">kg of water</label>
                 </div>
               </form>
             </div>
           </div>
         </div>
-      </section>
-      <!--Step 5 the Bloom-->
-      <section class="row rowspace">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div class="border">
+      </div>
+    </section>
+    <!--Step 5 the Bloom-->
+    <section class="row rowspace">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="border row">
+          <div class="col-xs-12 col-sm-12 col-md-4 pull-left">
             <h3>Step #5 The Bloom</h3>
-            <p>
-              For this step you will want to saturate all your gounds with the lowest amount of water possible. Aim for double the amount of your coffee. Allow your bloom to sit for 30-45 seconds
-            </p>
+            <p>For this step you will want to saturate all your gounds with the lowest amount of water possible. Aim for double the amount of your coffee. Allow your bloom to sit for 30-45 seconds.</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-8 pull-right">
             <figure class="embed-responsive embed-responsive-16by9">
               <iframe width="420" height="315" src="https://www.youtube.com/embed/k1trBzX-1JE?start=53&end=84&rel=0&showinfo=0&autohide=0&modestbranding=0&controls=0" frameborder="0" allowfullscreen="false"></iframe>
-          </figure>
+            </figure>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <!--End of Step 5-->
+
+    <!--START OF STEP 6-->
+    <section class="row rowspace">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="border row">
+          <div class="col-xs-12 col-sm-12 col-md-4 pull-right">
+            <h3>Step #6 Continue Pour</h3>
+            <p>Starting in the middle of the grounds and spiraling outwards continue to pour your water untnil you reached your recommened amount of water </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-8 pull-left">
+            <figure class="embed-responsive embed-responsive-16by9">
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/k1trBzX-1JE?start=33&end=43&rel=0&showinfo=0&autohide=0&modestbranding=0&controls=0" frameborder="0" allowfullscreen="false"></iframe>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<footer class="row rowspace">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="border row">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-left">
+        <h3>Step #7 Enjoy</h3>
+        <p>Finally the best part.After all your hard work relax and enjoy your amazing cup of coffee</p>
+      </div>
+      <figure class="col-xs-12 col-sm-12 col-md-8 pull-right">
+        <img class="img-responsive" src="../images/enjoy.jpg" />
+      </figure>
     </div>
+  </div>
+</footer>
   </main>
 
 
-
+  </div>
 
 </body>
 

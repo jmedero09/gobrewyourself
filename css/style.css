@@ -41,7 +41,9 @@ h3{
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     font-family: 'Sue Ellen Francisco', cursive;
+    color: #292019;
 }
+h4 {text-align:center; color: #fff; font-weight: 600; margin: 30px 0px;}
 .border{
     border: solid 1px white;
 
@@ -81,15 +83,46 @@ img{
 #mypref {
     color: #292019;
 }
+.ratio input.form-control{
+    border:0px;
+    background-color:#7E4C32;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    border-bottom: solid 1px white;
+    border-radius: 0px;
+    text-align: center;
+    width: 100%;
+    font-size:50px;
+    height: 72px;
+    padding: 6px 12px 6px 32px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+#waterField {
+    border-bottom: solid 1px #292019;
+    color: #292019;
+}
+.ratio input:focus{
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0),0 0 8px rgba(0,0,0,0);
+}
+.ratio input::-webkit-input-placeholder {color: #8b573b;}
 button {margin: 30px 0px;}
-.ratio {margin-bottom: 24px;}
+.ratio {margin-bottom: 24px; text-align: center; color: #292019;}
 .dropdown-menu li {color: #292019;}
 .dropdown-menu{min-width: 60px;}
+
+/*carousel*/
+.img-responsive{
+background-color: #7E4C32;
+object-fit: contain;
+}
+
+
 
 /* |||||||||||||||||||||||||||||||||||||| MEDIA QUERIES |||||||||||||||||||||||||||||||||||||||||||||*/
 /* Medium devices (desktops, 992px and up) */
         @media (min-width: 992px) {
-            /*.border {border: 0px; border-bottom: 1px solid white; margin: 30px; padding-bottom: 15px;}
+            .border {border: 0px; margin: 30px; padding-bottom: 15px;}
             h3{font-size: 42px;}
-            .border p {margin-top: 36px;}*/
+            .border p {margin-top: 36px;}
+            .fa-4x {font-size: 6em;}
         }

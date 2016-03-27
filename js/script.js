@@ -11,6 +11,7 @@ $(document).ready(function(){
     //Check for strength of coffee
     $("#strength div").on("click",function(){
          console.log(this);//Will give me the whole element
+         $('#beanField').prop("disabled", false);
          strength = this.id;
          //Remove text-shadow from all strengths
          $(this).parent().find('#standard').css('text-shadow', 'none');
@@ -28,7 +29,6 @@ $(document).ready(function(){
          //console.log($(this).val());
          amountCoffee=$("#beanField").val();
          
-         
          if(strength === "standard"){
               amountWater= amountCoffee*coffeeRatio.standard;
               console.log(amountWater);
@@ -45,9 +45,5 @@ $(document).ready(function(){
                console.log(amountWater);
                $("#waterField").val(amountWater);
          }
-      
-         
-         
     });
-
 });
