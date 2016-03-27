@@ -45,5 +45,21 @@ $(document).ready(function(){
                console.log(amountWater);
                $("#waterField").val(amountWater);
          }
+         
     });
+    //Replace images with autoplay videos
+    $('#filter').on('click', function() {
+        $(this).html('<iframe width="420" height="315" src="https://www.youtube.com/embed/k1trBzX-1JE?start=33&end=43&rel=0&showinfo=0&autohide=0&modestbranding=0&controls=0&autoplay=1" frameborder="0" allowfullscreen="false"></iframe>').css('background', 'none');
+    });
+    $('#cpour').on('click', function() {
+        $(this).html('<iframe width="420" height="315" src="https://www.youtube.com/embed/k1trBzX-1JE?start=33&end=43&rel=0&showinfo=0&autohide=0&modestbranding=0&controls=0&autoplay=1" frameborder="0" allowfullscreen="false"></iframe>').css('background', 'none');
+    });
+    $('#bloom').on('click', function() {
+        $(this).html('<iframe id="yerr" width="420" height="315" src="https://www.youtube.com/embed/k1trBzX-1JE?start=53&end=84&rel=0&showinfo=0&autohide=0&modestbranding=0&controls=0&autoplay=1" frameborder="0" allowfullscreen="false"></iframe>').css('background', 'none');
+    });
+    // $('#bloom').mouseleave(function () {
+    //   $("#yerr").hide();
+    //   $("#yerr").stopVideo();
+    // });
+    
 });

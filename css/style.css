@@ -9,6 +9,8 @@ background-color: #7E4C32;
     background-position: center top;
     text-align: center;
     color:white;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 .navbar{
 margin:0px;
@@ -110,12 +112,14 @@ button {margin: 30px 0px;}
 .dropdown-menu li {color: #292019;}
 .dropdown-menu{min-width: 60px;}
 
-/*carousel*/
-.img-responsive{
-background-color: #7E4C32;
-object-fit: contain;
+#cpour, #bloom, #filter{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-
+#filter {background-image: url("../images/filterpour.jpg");}
+#cpour {background-image:url("../images/pour.jpg");}
+#bloom {background-image:url("../images/bloom.jpg");}
 
 
 /* |||||||||||||||||||||||||||||||||||||| MEDIA QUERIES |||||||||||||||||||||||||||||||||||||||||||||*/
