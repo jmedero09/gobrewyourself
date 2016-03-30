@@ -1,48 +1,64 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Go Brew Yourself</title>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Go Brew Yourself</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Droid+Sans:400,700' rel='stylesheet' type='text/css'><!--Google Fonts-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style>
+        #background {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            background: url(images/beehousePour2.gif) no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .container {
+          text-align: center;
+          font-family: 'Droid Sans', sans-serif;
+        }
+        h1, h2, h3 {text-shadow: rgba(150, 150, 150, 0.6)0px 3px 9px;}
+        .container h1 {
+            color: #7E4C32;
+            font-size: 72px;
+            font-family: 'Sue Ellen Francisco', cursive;
+        }
+        .container h2 {
+            color: #fff;
+            font-size: 36px
+        }
+        .container a {
+            color: #292019;
+            font-size: 48px;
+            text-decoration: none;
+            font-family: 'Sue Ellen Francisco', cursive;
+        }
+        /*Media Queries*/
+        @media (min-width: 992px) {
+            .container {padding-top: 200px;}
+        }
+    </style>
     </head>
-    <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">GoBrewYourself</a>
+  <body>
+    <video autoplay loop muted poster="screenshot.jpg" id="background">
+        <source src="http://www.ogidesigns.net/gobrewyourself/videos/beehouseDrip.mp4" type="video/mp4" />
+    </video>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Go Brew Yourself</h1>
+                <h2>Coming Soon</h2>
+                <a href="drip/beehouse.html">Learn: Bee House Drip</a>
+            </div>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Drip <span class="caret"></span></a>
-           <ul class="dropdown-menu">
-             <li><a href="drip/beehouse.html">Bee House</a></li>
-             <li><a>Hario V-60</a></li>
-             <li><a>Kalita Wave</a></li>
-           </ul>
-         </li>
-         
-        <li><a href="#">Aero Press</a></li>
-        <li><a href="#">Chemex</a></li>
-        <li><a href="#">French Press</a></li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-<!--This is the end of the nav bar-->
-
-
-
-
-
-    </body>
+  </body>
 </html>

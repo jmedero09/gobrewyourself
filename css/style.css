@@ -121,6 +121,7 @@ button {margin: 30px 0px;}
 #cpour {background-image:url("../images/pour.jpg");}
 #bloom {background-image:url("../images/bloom.jpg");}
 
+figure {margin-bottom: 16px;}
 
 /* |||||||||||||||||||||||||||||||||||||| MEDIA QUERIES |||||||||||||||||||||||||||||||||||||||||||||*/
 /* Medium devices (desktops, 992px and up) */
